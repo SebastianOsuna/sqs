@@ -6,7 +6,7 @@ var https = require('https');
 var events = require('events')
 
 var SIGNATURE_METHOD  = 'HmacSHA256';
-var SIGNATURE_VERSION = '2';
+var SIGNATURE_VERSION = '4';
 var SIGNATURE_TTL = 150*1000;
 var VERSION = '2012-11-05';
 var DEFAULT_REGION = 'us-east-1';
